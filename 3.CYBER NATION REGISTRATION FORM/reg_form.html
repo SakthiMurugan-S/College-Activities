@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+  <head>
+    <style>
+	*{
+	margin:0;
+	}
+	  .bg{
+      background-image: url("1.jpg");
+      height: 100%; 
+      background-repeat: no-repeat;
+      background-size: cover;
+	  padding: 50px;
+        }
+	  .regform {
+            width: 800px;
+            background-color: rgb(0, 0, 0, 0.6);
+            margin: auto;
+            color: whitesmoke;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+        }
+	</style>
+  </head>
+  <body>
+  
+    <div class="bg">
+	<a href="../index.html" style="bottom:0%;color:white;">Activity Index</a>
+	<br>
+	 <h3 style="float:right; color: white;padding:10px 10px 0px 0px">Sakthi Murugan.S<br>CH.EN.U4CYS21071</h3>
+	  <br><br>
+	 <h1 style="color:#ffffff;padding-left:500px;" >Amrita Cyber Nation 22</h1>
+	 <br>
+	 <div class="regform">
+	 <form style="color:white" align="center">
+	 <br>
+	 <br> <div class="bc"><br>
+	  <b>Name:</b><input type="text" name="student name" placeholder="First Name" required /> <input type="text" name="student name" placeholder="Last Name"/><br><br>
+	  <b>Moblie Number:</b><input type="text" pattern=[0-9]{10} name="moblie number" required /><br><br>
+	  <b>DOB:</b><input type="date" name="dob" /><br><br>
+	  <b>Gender</b>:<input type="radio" name="gender" id="m"/>
+	  <label for="m">Male</label>
+	  <input type="radio" name="gender" id="f"/>
+	  <label for="f">Female</label><br><br>
+	  <b>Organization:</b><input type="text" name="college" placeholder="Enter your organization name" required /><br><br>
+	  <b>Email:</b><input type="text" name="email" placeholder="xxyyzz@gmail.com" required /><br><br>
+	  <br>
+	  <b>Department:</b><input type="radio" name="course" id="cys">
+	  <label for="cys">CYS</label>
+	  <input type="radio" name="course" id="ai"/>
+	  <label for="ai">AI</label>
+	  <input type="radio" name="course" id="cse"/>
+	  <label for="cse">CSE</label>(only if student)<br><br>
+	  <b><label for="up">ID Proof:</b></label><input type="file" name="upload" id="up"/><br><br>
+	  <b>Event: </b><select name="Profession">
+	    <option value="Cyber Conclave" selected>Cyber Conclave</option>
+		<option value="Cyber Industry Meet">Cyber Industry Meet</option>
+	    <option value="Cyber Tech Fest22">Cyber Tech Fest22</option>
+		<option value="Cyber Abyaan22">Cyber Abyaan22</option>
+	  </select><br><br>
+	  <b>Occupation: </b><input type="checkbox" name="event" id="1">
+	  <label for="1">Student</label>
+	  <input type="checkbox" name="event" id="2"/>
+	  <label for="2">Research Scholars/Faculty</label><br>
+	  <input type="checkbox" name="event" id="3"/>
+	  <label for="3">Industrial Person</label>
+	  <br><br>
+	   <input type="submit" name="submit" value="Register"/>
+	   <input type="reset" name="reset" value="Reset"/>
+	   <br><br>
+	</div>
+	</div>
+	</form>
+	</div>
+  </body>
+</html>
